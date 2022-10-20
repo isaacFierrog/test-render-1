@@ -3,5 +3,5 @@ from .views import ProyectoViewSet
 
 
 router = DefaultRouter()
-router.register(r'proyectos', ProyectoViewSet, basename='proyectos')
+router.register(r'', ProyectoViewSet, basename='proyectos')
 urlpatterns = router.urls
